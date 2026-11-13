@@ -1,0 +1,508 @@
+body {
+    background-color: #eccddf;
+    font-family: cursive;
+    margin: 0;
+}
+
+header {
+    background: #f7bcd1;
+    color: #6a2f5b;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 45px;
+    letter-spacing: 5px;
+} 
+
+header h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    gap:10px;
+    padding: 8px;
+    background-color: #f1c5d5;
+    flex-wrap: wrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+nav a {
+    color: #6a2f5b;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: large;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color: #f3dde5;
+    background-color: #6a2f5b;
+}
+
+nav .dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+nav .dropdown-toggle {
+    display: inline-block;
+    margin: 0;
+}
+
+nav .dropdown-menu {
+    background-color: #f7e5ed;
+    border: 1px solid #d9b4ca;
+    border-radius: 10px;
+    padding: 8px;
+    position: absolute;
+    top: 100%;
+    margin-top: 0;
+}
+
+nav .dropdown-item {
+    color: #6a2f5b;
+    font-size: 15px;
+    margin: 0;
+    padding: 10px;
+}
+
+nav .dropdown-item:hover {
+    background-color: #6a2f5b;
+    color: white;
+}
+
+#home h1 {
+    color: #6a2f5b;
+    text-align: left;
+    padding: 15px;
+    font-size: 65px;
+    font-family: cursive;
+    margin-top: 20px;
+}
+
+#home h2 {
+    color: #6a2f5b;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 60px;
+    font-family:fantasy;  
+}
+
+#home p{
+    color: #6a2f5b;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#home img{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 150px 150px 150px 150px;
+    border: 3px solid #d9b4ca;
+    padding: 8px;
+    width: 350px;
+    background-color: #f7e5ed;
+    
+}
+
+.tagline {
+    margin-top: 60px;
+}
+
+.home-buttons {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.home-buttons a {
+    color: #6a2f5b;
+    border-color: #6a2f5b;
+    margin-right: 10px;
+}
+
+.home-buttons a:hover {
+    background-color: #6a2f5b;
+    color: white;
+}
+
+#about {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 40px 60px 30px;
+}
+
+#about h2 {
+    color:#6a2f5b;
+    font-size: 55px;
+    font-family: fantasy;
+}
+
+#about p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: #6a2f5b;
+    margin-bottom: 30px;
+}
+
+#about img{
+    display: block;
+    margin: auto;
+    border-radius: 150px 150px 150px 150px;
+    border: 3px solid #d9b4ca;
+    padding: 8px;
+    width: 350px;
+    background-color: #f7e5ed;
+}
+
+#interests {
+    margin-top: 0px;
+    padding: 40px 60px 50px;
+}
+
+#interests h2 {
+    color:#6a2f5b;
+    font-size: 55px;
+    text-align: center;
+    font-family: fantasy;
+}
+
+#interests .interests-intro {
+    color: #6a2f5b;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#interests .card {
+    background-color: #f7e5ed;
+    border: 2px solid #d9b4ca;
+    border-radius: 15px;
+    height: 90%;
+    overflow: hidden;
+}
+
+#interests .card-title {
+    color:#6a2f5b;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+#interests .card-text {
+    color:#6a2f5b;
+    text-align: center;
+    font-size: 16px;
+}
+
+#interests .card-img-top {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+#interests .card-body {
+    padding: 20px;
+}
+
+#zodiac {
+    margin-top: 0px;
+    padding: 40px 60px;
+    text-align: center;
+}
+
+#zodiac h2 {
+    color:#6a2f5b;
+    font-size: 55px;
+    font-family: fantasy;
+    margin-bottom: 20px;
+}
+
+#zodiac .zodiac-intro {
+    color: #6a2f5b;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+#zodiac img {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: 3px solid #d9b4ca;
+    padding: 8px;
+    width: 350px;
+    background-color: #f7e5ed;
+}
+
+#more {
+    margin-top: 0px;
+    padding: 40px 60px 50px;
+}
+
+#more h2 {
+    color:#6a2f5b;
+    font-size: 55px;
+    font-family: fantasy;
+    text-align: center;
+}
+
+#more .more-intro {
+    color:#6a2f5b;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#more .card {
+    background-color: #f7e5ed;
+    border: 2px solid #d9b4ca;
+    border-radius: 15px;
+    height: 100%;
+}
+
+#more .card-body {
+    padding: 25px;
+    text-align: center;
+}
+
+#more .card-title {
+    color: #6a2f5b;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#more .card-text {
+    color:#6a2f5b;
+    font-size: 17px;
+}
+
+#contact {
+    margin-top: 0px;
+    padding: 40px 60px 50px;
+    text-align: center;
+}
+
+#contact a {
+    color: #6a2f5b;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #9b648d;
+    text-decoration: underline;
+}
+
+#contact h2 {
+    color: #6a2f5b;
+    font-size: 55px;
+    font-family: fantasy;
+}
+
+#contact .contact-intro {
+    color: #6a2f5b;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+#contact .contact-details {
+    color: #6a2f5b;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact .btn {
+    border-color: #9b648d;
+    color: #6a2f5b;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+#contact .btn:hover {
+    background-color: #6a2f5b;
+    color: white;
+}
+
+footer {
+    background-color: #f7e5ed;
+    color: #6a2f5b;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+    header {
+        padding: 15px 10px;
+        font-size: 30px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    header h1 {
+        font-size: 27px;
+        letter-spacing: 2px;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 5px;
+        padding: 10px 5px;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+        margin-right: 0;
+    }
+
+    #home h1 {
+        font-size: 36px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    #home h2 {
+        font-size: 42px;
+        padding-top: 0;
+    }
+
+    #home p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+
+    #home img {
+        width: 90%;
+        max-width: 260px;
+    }
+
+    .tagline {
+        margin-top: 30px;
+    }
+
+    .home-buttons {
+        margin-top: 25px;
+    }
+
+    #about {
+        padding: 25px 15px 0;
+    }
+
+    #about h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #about p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    #about img {
+        width: 90%;
+        max-width: 260px;
+    }
+
+    #interests {
+        padding: 20px 15px;
+    }
+
+    #interests h2 {
+        font-size: 40px;
+    }
+
+    #interests .card {
+        height: auto;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    #interests .interests-intro {
+        font-size: 16px;
+    }
+
+    #interests .card-img-top {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        display: block;
+    }
+
+    #zodiac {
+        padding: 15px;
+    }
+
+    #zodiac h2 {
+        font-size: 40px;
+    }
+
+    #zodiac .zodiac-intro {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    #zodiac img {
+        width: 90%;
+        max-width: 260px;
+    }
+
+    #more {
+        padding: 25px 15px;
+    }
+
+    #more h2 {
+        font-size: 40px;
+    }
+
+    #more .more-intro {
+        font-size: 17px;
+    }
+
+    #more .card-title {
+        font-size: 20px;
+    }
+
+    #more .card-text {
+        font-size: 16px;
+    }
+
+    #contact {
+        padding: 25px 15px 40px;
+    }
+
+    #contact h2 {
+        font-size: 40px;
+    }
+
+    #contact .contact-intro {
+        font-size: 17px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 15px;
+    }
+}
+
+section {
+    scroll-margin-top: 90px;
+}
