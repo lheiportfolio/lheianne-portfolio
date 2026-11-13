@@ -363,14 +363,14 @@ footer {
 
     nav {
         justify-content: center;
-        gap: 6px;
+        gap: 8px;
         padding: 10px 5px;
     }
 
     nav a {
         font-size: 12px;
-        padding: 6px 3px;
-        margin-right: 0;
+        padding: 6px 2px;
+        margin-right: 1px;
     }
 
     #home h1 {
